@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="/css/main.css">
+<script src="/js/main.js" defer></script>
+<title>Crypto Stash</title>
+</head>
+<body class="bg-dark">
+    <nav class="navbar mt-2 mb-2 border-bottom border-warning navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand nav-header">Crypto Stash</a>
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navmenu"
+            ><span class="navbar-toggler-icon m-auto"></span></button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Profile</a>
+                    </li>
+                </ul>
+            </div>
+                                                                                <!-- Decorative divider -->
+        </div>
+    </nav>
+    <div class="device-width d-divider d-flex">
+    </div>
+                                                                                <!-- Main page body -->
+    <form id="custom-form-body">
+
+        <input type="radio" name="fancy" autofocus value="BitCoin" id="BitCoin" />
+        <input type="radio" name="fancy" value="LiteCoin" id="LiteCoin" />
+        <input type="radio" name="fancy" value="EthereumClassic" id="EthereumClassic" />
+        <input type="radio" name="fancy" value="TezosCoin" id="TezosCoin" />			
+            <label for="BitCoin">
+                <h2 class="cardHeader" id="bitcoin-price">Bitcoin (BTC)</h2>
+                <p id="BTC-price">Loading...</p>
+            </label>
+            <label for="LiteCoin">
+                <h2 class="cardHeader" id="litecoin-price">Litecoin (LTC)</h2>
+                <p id="LTC-price">Loading...</p>
+            </label>
+            <label for="EthereumClassic">
+                <h2 class="cardHeader" id="ethereum-classic-price">Ethereum Classic (ETC)</h2>
+                <p id="ETC-price">Loading...</p>
+            </label>
+            <label for="TezosCoin">
+                <h2 class="cardHeader" id="tezos-price">Tezos (XTZ)</h2>
+                <p id="XTZ-price">Loading...</p>
+            </label>
+
+        <div class="keys">Use left and right keys to navigate</div>
+</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
