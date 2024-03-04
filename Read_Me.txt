@@ -22,7 +22,9 @@ To those who may run this in the future,
 
             5. $ node proxy.js
 
-            6. launch live server normally
+            6. navigate to proxy.js and enter your API key on line 13
+
+            7. launch live server normally
 
     It is also worth noting that in /js/main.js on line 22 there is an ability to set refresh rate to every 5 
 seconds. Feel free to try it if you'd like but please comment it back out when you are satisfied. I only have so many
