@@ -1,4 +1,4 @@
-const apiKey = '9834327a-fac9-446d-817a-b7bad05c747a';
+
 
 async function fetchPrices() {
   const cryptocurrencies = ['BTC', 'LTC', 'ETC', 'XTZ'];
