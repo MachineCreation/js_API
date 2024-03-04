@@ -10,7 +10,7 @@ app.use('/api', createProxyMiddleware({
     '^/api': '/v1'
   },
   onProxyReq(proxyReq, req, res) {
-    proxyReq.setHeader('X-CMC_PRO_API_KEY', '9834327a-fac9-446d-817a-b7bad05c747a'); 
+    proxyReq.setHeader('X-CMC_PRO_API_KEY', 'YOUR_API_KEY_GOES_HERE'); // replace 'YOUR_API_KEY_GOES_HERE' with your API key or one that was provided for you
   },
   onProxyRes(proxyRes, req, res) {
     // Add CORS headers
